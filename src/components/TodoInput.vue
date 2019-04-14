@@ -26,6 +26,7 @@ export default {
         localStorage.setItem(value, value);
         this.clearInput();
         //인풋 박스의 입력 값을 초기화
+        //clearInput메소드는 App컴포넌트에 정의되어 있다.
       }
     },
     clearInput() {
